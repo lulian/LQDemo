@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LLHomeTabbarViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    LLHomeTabbarViewController *homeTab=[[LLHomeTabbarViewController alloc]init];
+    
+    self.window.rootViewController=homeTab;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
