@@ -11,30 +11,15 @@
 		BB47F6BD1D01319300AB0953 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB47F6BC1D01319300AB0953 /* AppDelegate.m */; };
 		BB47F6C51D01319300AB0953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB47F6C41D01319300AB0953 /* Assets.xcassets */; };
 		BB47F6C81D01319300AB0953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB47F6C61D01319300AB0953 /* LaunchScreen.storyboard */; };
-		BB47F6D31D01319300AB0953 /* LLQDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB47F6D21D01319300AB0953 /* LLQDemoTests.m */; };
-		BB47F6DE1D01319300AB0953 /* LLQDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB47F6DD1D01319300AB0953 /* LLQDemoUITests.m */; };
 		BB47F6EF1D01549A00AB0953 /* LLHomeTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB47F6EC1D01549A00AB0953 /* LLHomeTabbarViewController.m */; };
 		BB47F6F01D01549A00AB0953 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB47F6EE1D01549A00AB0953 /* FirstViewController.m */; };
+		CE006AC456221972410E7C66 /* libPods-LLQDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1556BE0DBDC071D793143832 /* libPods-LLQDemo.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BB47F6CF1D01319300AB0953 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB47F6AD1D01319300AB0953 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB47F6B41D01319300AB0953;
-			remoteInfo = LLQDemo;
-		};
-		BB47F6DA1D01319300AB0953 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB47F6AD1D01319300AB0953 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB47F6B41D01319300AB0953;
-			remoteInfo = LLQDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		136AF83F26EC95BF481F4C0D /* Pods-LLQDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLQDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLQDemo/Pods-LLQDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1556BE0DBDC071D793143832 /* libPods-LLQDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLQDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C4639CD62954D15662E99D /* Pods-LLQDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLQDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLQDemo/Pods-LLQDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BB47F6B51D01319300AB0953 /* LLQDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLQDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB47F6B91D01319300AB0953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB47F6BB1D01319300AB0953 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,12 +27,6 @@
 		BB47F6C41D01319300AB0953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB47F6C71D01319300AB0953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB47F6C91D01319300AB0953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB47F6CE1D01319300AB0953 /* LLQDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLQDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB47F6D21D01319300AB0953 /* LLQDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLQDemoTests.m; sourceTree = "<group>"; };
-		BB47F6D41D01319300AB0953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB47F6D91D01319300AB0953 /* LLQDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLQDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB47F6DD1D01319300AB0953 /* LLQDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLQDemoUITests.m; sourceTree = "<group>"; };
-		BB47F6DF1D01319300AB0953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB47F6EB1D01549A00AB0953 /* LLHomeTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLHomeTabbarViewController.h; sourceTree = "<group>"; };
 		BB47F6EC1D01549A00AB0953 /* LLHomeTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLHomeTabbarViewController.m; sourceTree = "<group>"; };
 		BB47F6ED1D01549A00AB0953 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -59,33 +38,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB47F6CB1D01319300AB0953 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB47F6D61D01319300AB0953 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CE006AC456221972410E7C66 /* libPods-LLQDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D9E56E52C08A5EB20451488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1556BE0DBDC071D793143832 /* libPods-LLQDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5330388CDBDB62F4515E9F78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				136AF83F26EC95BF481F4C0D /* Pods-LLQDemo.debug.xcconfig */,
+				75C4639CD62954D15662E99D /* Pods-LLQDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BB47F6AC1D01319300AB0953 = {
 			isa = PBXGroup;
 			children = (
 				BB47F6B71D01319300AB0953 /* LLQDemo */,
-				BB47F6D11D01319300AB0953 /* LLQDemoTests */,
-				BB47F6DC1D01319300AB0953 /* LLQDemoUITests */,
 				BB47F6B61D01319300AB0953 /* Products */,
+				5330388CDBDB62F4515E9F78 /* Pods */,
+				0D9E56E52C08A5EB20451488 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				BB47F6B51D01319300AB0953 /* LLQDemo.app */,
-				BB47F6CE1D01319300AB0953 /* LLQDemoTests.xctest */,
-				BB47F6D91D01319300AB0953 /* LLQDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,24 +105,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BB47F6D11D01319300AB0953 /* LLQDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				BB47F6D21D01319300AB0953 /* LLQDemoTests.m */,
-				BB47F6D41D01319300AB0953 /* Info.plist */,
-			);
-			path = LLQDemoTests;
-			sourceTree = "<group>";
-		};
-		BB47F6DC1D01319300AB0953 /* LLQDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BB47F6DD1D01319300AB0953 /* LLQDemoUITests.m */,
-				BB47F6DF1D01319300AB0953 /* Info.plist */,
-			);
-			path = LLQDemoUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB47F6E21D01319300AB0953 /* Build configuration list for PBXNativeTarget "LLQDemo" */;
 			buildPhases = (
+				499941705D588656CE74EFA6 /* [CP] Check Pods Manifest.lock */,
 				BB47F6B11D01319300AB0953 /* Sources */,
 				BB47F6B21D01319300AB0953 /* Frameworks */,
 				BB47F6B31D01319300AB0953 /* Resources */,
+				49FADB8219998FDF7F3ADFC3 /* [CP] Embed Pods Frameworks */,
+				3C5988BB1A46EBAC1FB7F24B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,42 +127,6 @@
 			productName = LLQDemo;
 			productReference = BB47F6B51D01319300AB0953 /* LLQDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		BB47F6CD1D01319300AB0953 /* LLQDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB47F6E51D01319300AB0953 /* Build configuration list for PBXNativeTarget "LLQDemoTests" */;
-			buildPhases = (
-				BB47F6CA1D01319300AB0953 /* Sources */,
-				BB47F6CB1D01319300AB0953 /* Frameworks */,
-				BB47F6CC1D01319300AB0953 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB47F6D01D01319300AB0953 /* PBXTargetDependency */,
-			);
-			name = LLQDemoTests;
-			productName = LLQDemoTests;
-			productReference = BB47F6CE1D01319300AB0953 /* LLQDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BB47F6D81D01319300AB0953 /* LLQDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB47F6E81D01319300AB0953 /* Build configuration list for PBXNativeTarget "LLQDemoUITests" */;
-			buildPhases = (
-				BB47F6D51D01319300AB0953 /* Sources */,
-				BB47F6D61D01319300AB0953 /* Frameworks */,
-				BB47F6D71D01319300AB0953 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB47F6DB1D01319300AB0953 /* PBXTargetDependency */,
-			);
-			name = LLQDemoUITests;
-			productName = LLQDemoUITests;
-			productReference = BB47F6D91D01319300AB0953 /* LLQDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -209,14 +139,6 @@
 				TargetAttributes = {
 					BB47F6B41D01319300AB0953 = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					BB47F6CD1D01319300AB0953 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = BB47F6B41D01319300AB0953;
-					};
-					BB47F6D81D01319300AB0953 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = BB47F6B41D01319300AB0953;
 					};
 				};
 			};
@@ -234,8 +156,6 @@
 			projectRoot = "";
 			targets = (
 				BB47F6B41D01319300AB0953 /* LLQDemo */,
-				BB47F6CD1D01319300AB0953 /* LLQDemoTests */,
-				BB47F6D81D01319300AB0953 /* LLQDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,21 +170,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB47F6CC1D01319300AB0953 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB47F6D71D01319300AB0953 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C5988BB1A46EBAC1FB7F24B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLQDemo/Pods-LLQDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		499941705D588656CE74EFA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49FADB8219998FDF7F3ADFC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLQDemo/Pods-LLQDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB47F6B11D01319300AB0953 /* Sources */ = {
@@ -278,36 +232,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB47F6CA1D01319300AB0953 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB47F6D31D01319300AB0953 /* LLQDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB47F6D51D01319300AB0953 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB47F6DE1D01319300AB0953 /* LLQDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BB47F6D01D01319300AB0953 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BB47F6B41D01319300AB0953 /* LLQDemo */;
-			targetProxy = BB47F6CF1D01319300AB0953 /* PBXContainerItemProxy */;
-		};
-		BB47F6DB1D01319300AB0953 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BB47F6B41D01319300AB0953 /* LLQDemo */;
-			targetProxy = BB47F6DA1D01319300AB0953 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BB47F6C61D01319300AB0953 /* LaunchScreen.storyboard */ = {
@@ -405,6 +330,7 @@
 		};
 		BB47F6E31D01319300AB0953 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 136AF83F26EC95BF481F4C0D /* Pods-LLQDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LLQDemo/Info.plist;
@@ -416,58 +342,13 @@
 		};
 		BB47F6E41D01319300AB0953 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C4639CD62954D15662E99D /* Pods-LLQDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LLQDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lulian123.LLQDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		BB47F6E61D01319300AB0953 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = LLQDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lulian123.LLQDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLQDemo.app/LLQDemo";
-			};
-			name = Debug;
-		};
-		BB47F6E71D01319300AB0953 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = LLQDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lulian123.LLQDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLQDemo.app/LLQDemo";
-			};
-			name = Release;
-		};
-		BB47F6E91D01319300AB0953 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LLQDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lulian123.LLQDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = LLQDemo;
-			};
-			name = Debug;
-		};
-		BB47F6EA1D01319300AB0953 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LLQDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = lulian123.LLQDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = LLQDemo;
 			};
 			name = Release;
 		};
@@ -490,22 +371,7 @@
 				BB47F6E41D01319300AB0953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		BB47F6E51D01319300AB0953 /* Build configuration list for PBXNativeTarget "LLQDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB47F6E61D01319300AB0953 /* Debug */,
-				BB47F6E71D01319300AB0953 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		BB47F6E81D01319300AB0953 /* Build configuration list for PBXNativeTarget "LLQDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB47F6E91D01319300AB0953 /* Debug */,
-				BB47F6EA1D01319300AB0953 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -43,8 +43,15 @@
     self.viewControllers=items;
     self.selectedIndex=0;
 
-
+    [self ll_reloadTabBarItem];
 }
+
+- (void)ll_reloadTabBarItem{
+    
+    self.tabBar.backgroundColor = [UIColor redColor];
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

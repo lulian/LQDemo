@@ -1,0 +1,57 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - MJRefresh (3.1.0)
+  - RegexKitLite (4.0)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - TPKeyboardAvoiding (1.3)
+  - TTTAttributedLabel (1.13.4)
+  - ZBarSDK (1.3.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6)
+  - FMDB (~> 2.2)
+  - MJRefresh (~> 3.1.0)
+  - RegexKitLite (~> 4.0)
+  - SDWebImage (~> 3.7.5)
+  - TPKeyboardAvoiding (~> 1.3)
+  - TTTAttributedLabel (~> 1.13.4)
+  - ZBarSDK (~> 1.3.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  RegexKitLite: c0e4c12e6e7de0769f3a3ed679f0f61604170661
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  TPKeyboardAvoiding: a5138f318c06fb3e151f886e18ce4a72695d9cbe
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+  ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
+
+PODFILE CHECKSUM: 7985621620dde44850553f6c90b436b736d363ed
+
+COCOAPODS: 1.0.1
